@@ -133,10 +133,7 @@ p {
   line-height: 1.4;
   font-weight: 500;
 }
-.wids {
-  /* width: 16rem; */
-  /* border: 3px solid black; */
-}
+
 .sbys {
   display: flex;
   align-items: center;
@@ -150,4 +147,10 @@ p {
 .lower-opp {
   opacity: 70%;
   font-weight: 500;
+}
+@media screen and (max-width: 900px) {
+  .attribution {
+    position: relative;
+    bottom: 1rem;
+  }
 }
